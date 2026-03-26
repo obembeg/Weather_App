@@ -22,7 +22,7 @@ async function fetchWeather() {
 
   try {
     const response = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input.value}&aqi=no`,
+      `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input.value}&aqi=no`,
       {
         method: "GET",
         headers: {
